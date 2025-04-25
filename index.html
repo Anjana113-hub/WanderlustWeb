@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cool Mind Trip Tour</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a href="#"><img src="./image/logo.png" alt=""/></a>
+        </div>
+        
+        <ul class="links" id="linkbar">
+          <div class="linkbar">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#holiday">Holiday</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </div>
+            
+        </ul>
+          <img src="./image/menu-btn.png" alt="" class="menubar">
+      </div>
+      
+      <div class="content" id="home">
+        <h2>Explore the beautiful world</h2>
+        <div class="green-line"></div>
+        <h1>BEAUTIFUL NATURE</h1>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </header>
+
+    <!-- occasion -->
+
+    <section id="holiday" class="occasion">
+      <div class="heading">
+        <h1>Make Your Holiday Memorable</h1>
+        <div class="green-line"></div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <img src="./image/img1.jpg" alt="">
+          <h4>Smoky Mountain Sunset</h4>
+          <p>The Smokies got their name from the Cherokee people. They called it “Shaconage” (shah-con-ah-jey) which means “place of the blue smoke.”</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+
+        <div class="col">
+          <img src="./image/img2.jpeg" alt="">
+          <h4>Cascade of Waterfall</h4>
+          <p>A cascade waterfall is a type of waterfall that's made up of a series of small falls that descend over rocks or boulders.</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+
+        <div class="col">
+          <img src="./image/img3.jpg" alt="">
+          <h4>Cascade of Waterfall</h4>
+          <p>A cascade waterfall is a type of waterfall that's made up of a series of small falls that descend over rocks or boulders.</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+
+        <div class="col">
+          <img src="./image/img4.jpg" alt="">
+          <h4>Cascade of Waterfall</h4>
+          <p>A cascade waterfall is a type of waterfall that's made up of a series of small falls that descend over rocks or boulders.</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+
+        </div>    
+    </section>
+
+    <!-- experience -->
+
+    <section class="experience" id="explore">
+      <div class="exp-content">
+        <h1>Discover The World</h1>
+        <div class="green-line"></div>
+        <p>Explore the world with our guide to unforgettable travel experiences, from natural wonders to thrilling adventures. Ignite your wanderlust today!</p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </section>
+
+
+    <!-- tour -->
+     
+    <section class="tour" id="about">
+        <div class="col-tour">
+          <h1>Life Is Short & The World Is Wide</h1>
+          <div class="green-line"></div>
+          <p>Mamm Mia quotes - Life is short, the world is wide. I want to make some memories. So, Don't hesitate to grab the opportunity and live new experiences today!</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+      <!-- image section -->
+      <section class="imgsection">
+          <div class="images">
+            <img src="./image/img-gallery1.jpg" alt="">
+            <img src="./image/img-gallery2.jpg" alt="">
+            <img src="./image/img-gallery3.jpg" alt="">
+            <img src="./image/img-gallery4.jpg" alt="">
+          </div>
+      </section>
+      
+      <!-- footer part -->
+    <section class="footer" id="contact">
+      <p>Fifth Floor, New York, London | Phone:809-143-3423 | Email: contact@gmail.com</p>
+      <p>Copyright &copy 2025 The Travel Tour Adventure Cool Mind Trip Tour. All Rights Reserved.</p>
+      <p>This Template is made by <i class="fa-solid fa-heart"></i>  <span>Anjana Karmakar</span></p>
+    </section>
+  </body>
+  <script>
+    let menubar = document.querySelector(".menubar");
+    let linkbar = document.querySelector(".linkbar");
+
+    document.querySelector(".menubar").addEventListener("click",()=>{
+            linkbar.classList.toggle("showmodel");
+        })
+
+  </script>
+</html>
